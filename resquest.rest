@@ -1,0 +1,10 @@
+Get http://localhost:3003/user
+
+###
+POST http://localhost:3003/user
+Content-Type:application/json
+{
+  "name":"Admin",
+  "email":"admin@gmail.com",
+  "password":"12345"
+}
